@@ -1,0 +1,118 @@
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+  }
+
+  .titulo {
+    background-image: url("Codigo_Optimizado.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0; 
+    color: #fff;
+  }
+  
+  .titulo h1 {
+    font-size: 36px;
+    margin-top: 20px; 
+  } 
+  
+  .titulo p {
+    font-size: 18px;
+    margin-top: 10px; 
+  }
+
+  .contenidos {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contenido {
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .contenido img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .contenido h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .contenido p {
+    font-size: 14px;
+    color: #777;
+  }
+
+  .contenido-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .contenido-contenedor h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .navbar {
+    background-color: #161816;
+    height: 50px;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .nav-menu li {
+    margin: 0 10px;
+  }
+  
+  .nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .nav-menu li a:hover {
+    background-color: #555;
+  }  
+
+  .contenido img {
+    transition: transform 1s ease;
+  }
+  
+  .contenido:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  .contenido h3{
+    cursor: pointer;
+  }
